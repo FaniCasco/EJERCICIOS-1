@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+h1 {
+    text-align: center;    
+}
+
+h2{
+color:rgb(6, 6, 95);
+}
+
+.uno, .dos, .tres, .cuatro{
+  
+   color: black;
+}
+#mensaje, #calificacion, #piramide, #piramide2{
+color:brown;
+font-size: 1.5rem;
+}
