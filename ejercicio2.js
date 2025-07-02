@@ -43,3 +43,32 @@ switch (true) {
 
 console.log("Su nota fue: " + nota + ". El resultado es: " + resultado);
 document.getElementById("calificacion").textContent = " Su nota fue:  " + nota + ".  El resultado es " + resultado;
+
+//
+let calificacion = 6;
+
+switch (calificacion) {
+  
+  case 0-3:
+    console.log("Muy deficiente");
+    break;
+    case 3-5:
+    console.log("Insuficiente");
+    break;
+    case 5-7:
+    console.log("Suficiente");
+    break;
+    case 7-8:
+    console.log("Bien");
+    break;
+    case 8-9:
+    console.log("Notable");
+    break;
+
+    case 9-10:
+    console.log("Sobresaliente");
+    break;
+  
+  default:
+    console.log("Nota no válida");
+}
