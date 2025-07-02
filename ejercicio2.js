@@ -10,65 +10,38 @@ imprima en consola la calificación según la nota:
 */
 
 let nota = 5;
-let resultado = "";
+//let resultado = "";
 
 switch (true) {
   case (nota >= 0) && (nota <= 3):
-    resultado = "Muy deficiente";
+    //resultado = "Muy deficiente";
     console.log("Muy deficiente");
     break;
   case (nota >= 4) && (nota <= 5):
-    resultado = "Insuficiente";
+    //resultado = "Insuficiente";
     console.log("Insuficiente");
     break;
     case (nota >= 6) && (nota <= 7):
-        resultado = "Suficiente";
+        //resultado = "Suficiente";
         console.log("Suficiente");
         break;
   case 8:
-    resultado = "Bien";
+    //resultado = "Bien";
     console.log("Bien");    
     break;
   case 9:
-    resultado = "Notable";
+    //resultado = "Notable";
     console.log("Notable");
     break;
   case 10:
-    resultado = "Sobresaliente";
+    //resultado = "Sobresaliente";
     console.log("Sobresaliente");
     break;
      default:
-    resultado = "Nota no válida";
+    //resultado = "Nota no válida";
 }
 
-console.log("Su nota fue: " + nota + ". El resultado es: " + resultado);
-document.getElementById("calificacion").textContent = " Su nota fue:  " + nota + ".  El resultado es " + resultado;
+//console.log("Su nota fue: " + nota + ". El resultado es: " + resultado);
+//document.getElementById("calificacion").textContent = " Su nota fue:  " + nota + ".  El resultado es " + resultado;
 
-//
-let calificacion = 6;
 
-switch (calificacion) {
-  
-  case 0-3:
-    console.log("Muy deficiente");
-    break;
-    case 3-5:
-    console.log("Insuficiente");
-    break;
-    case 5-7:
-    console.log("Suficiente");
-    break;
-    case 7-8:
-    console.log("Bien");
-    break;
-    case 8-9:
-    console.log("Notable");
-    break;
-
-    case 9-10:
-    console.log("Sobresaliente");
-    break;
-  
-  default:
-    console.log("Nota no válida");
-}
